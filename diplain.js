@@ -26,6 +26,7 @@ const color = {
 
 b.css('.box',`
 	border-left: 7px solid ${color.green};
+	border-right: 1px solid ${color.gray400};
 	padding: 0;
 	margin: 0;
 	width: 100%;
