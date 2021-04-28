@@ -125,7 +125,7 @@ export const diplain = ({query, store, info}) => {
 
 	const maximize = () => {
 		//not implemented yet
-	  }
+	}
 
 
 
@@ -181,7 +181,7 @@ diplain.presets = true;
 diplain.persistent = true;
 diplain.options = [
 	{a: 'label', t: 'string', r: false, d: label, c: 'Label' },
-	{a: 'text', t: 'string', r: false, d: "", c: 'Text Preset' },
+	{a: 'text', t: 'string', r: false, d: "", c: 'Preset Text' },
 	{a: 'limit', t: 'number', r: false, d: limit, c: 'Number of chars allowed' },
 ]
 

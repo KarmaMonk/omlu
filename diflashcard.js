@@ -363,11 +363,11 @@ export const flashcard = ({query, store, info}) => {
 		
 		m('div.footer',
 			m('div.footerLeft',
-				m(button,{id: 'play', text: 'Play Deck', onclick: changeMode}),
+				m(button,{id: 'play', text: 'Play', onclick: changeMode}),
 				spacer(),
-				m(button,{id:'delete', text: 'Delete Card', onclick: deleteCard}),
+				m(button,{id:'delete', text: 'Delete', onclick: deleteCard}),
 				spacer(),
-				m(button,{id:'add', text: 'Add Card', onclick: addCard}) 
+				m(button,{id:'add', text: 'Add', onclick: addCard}) 
 			),
 			m('div.footerCenter'),
 			m('div.footerRight', 
