@@ -8,11 +8,14 @@ export const icon = {
 	reset:  	m('svg[id="reset"][fill="black"][width="24"][height="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]',
 				m('path[d="M8,4 L21,4 C22.1045695,4 23,4.8954305 23,6 L23,18 C23,19.1045695 22.1045695,20 21,20 L8,20 C7.49479181,20 7.26688156,19.8135296 6.80345396,19.3176949 C6.75712534,19.2681266 6.7099247,19.2160219 6.66192355,19.1616204 C6.47807387,18.9532567 6.31421472,18.7494307 6.23177872,18.6401844 L0.698291721,12 L1.23177872,11.3598156 L6.18176877,5.42511074 C6.28584987,5.27697368 6.44363308,5.06720208 6.62702438,4.85177708 C6.70024349,4.7657685 6.77251996,4.68522946 6.84400957,4.61079521 C7.22963038,4.20929073 7.51572647,4 8,4 Z M8.14992562,6.14822292 C8.01407942,6.30779792 7.88980013,6.47302632 7.76822128,6.6401844 L3.30164767,12.0000727 L7.79436009,17.3925528 C7.87696028,17.5005693 8.01456988,17.6717433 8.16160145,17.8383796 C8.1974634,17.8790233 8.23193807,17.9170798 8.2646108,17.9520373 C8.28044249,17.9689761 8.29568185,17.9849966 8.31020844,18 L21,18 L21,5.99999999 L8.28281512,6 C8.24198403,6.04270247 8.19723122,6.09265426 8.14992562,6.14822292 Z M14,10.5857864 L16.2928932,8.29289322 L17.7071068,9.70710678 L15.4142136,12 L17.7071068,14.2928932 L16.2928932,15.7071068 L14,13.4142136 L11.7071068,15.7071068 L10.2928932,14.2928932 L12.5857864,12 L10.2928932,9.70710678 L11.7071068,8.29289322 L14,10.5857864 Z"]')
 	),
-	standalone: m('svg[id="standalon"][fill="black"][width="24"][height="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
+	standalone: m('svg[id="standalon"][fill="black"][width="16"][height="16"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
 	  			m('path[fill-rule="evenodd"][d="M19,14 L19,19 C19,20.1045695 18.1045695,21 17,21 L5,21 C3.8954305,21 3,20.1045695 3,19 L3,7 C3,5.8954305 3.8954305,5 5,5 L10,5 L10,7 L5,7 L5,19 L17,19 L17,14 L19,14 Z M18.9971001,6.41421356 L11.7042068,13.7071068 L10.2899933,12.2928932 L17.5828865,5 L12.9971001,5 L12.9971001,3 L20.9971001,3 L20.9971001,11 L18.9971001,11 L18.9971001,6.41421356 Z"]')
 	),
-	fullscreen: m('svg[id="fullscreen"][fill="black"][height="24"][width="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
+	maximize: m('svg[id="fullscreen"][fill="black"][height="16"][width="16"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
 	  			m('polygon[fill-rule="evenodd"][points="13.414 12 19 17.586 19 14 21 14 21 21 14 21 14 19 17.586 19 12 13.414 6.414 19 10 19 10 21 3 21 3 14 5 14 5 17.586 10.586 12 5 6.414 5 10 3 10 3 3 10 3 10 5 6.414 5 12 10.586 17.586 5 14 5 14 3 21 3 21 10 19 10 19 6.414"]')
+	),
+	minimize: m('svg[id="fullscreen"][fill="black"][height="16"][width="16"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
+	  			m('polygon[fill-rule="evenodd"][points="M8,17.4142136 L3.70710678,21.7071068 L2.29289322,20.2928932 L6.58578644,16 L3,16 L3,14 L10,14 L10,21 L8,21 L8,17.4142136 Z M17,17 L17,12 L19,12 L19,19 L12,19 L12,17 L17,17 Z M7,7 L7,12 L5,12 L5,5 L12,5 L12,7 L7,7 Z M21,8 L21,10 L14,10 L14,3 L16,3 L16,6.58578644 L20.2928932,2.29289322 L21.7071068,3.70710678 L17.4142136,8 L21,8 Z"]')
 	),
 	play: 		m('svg[id="play"][fill="black"][height="24"][width="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
 	  			m('path[fill-rule="evenodd"][d="M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 Z M8,17 L8,7 C8,6.21456446 8.86395093,5.73572169 9.52999894,6.1520017 L17.5299989,11.1520017 C18.156667,11.5436692 18.156667,12.4563308 17.5299989,12.8479983 L9.52999894,17.8479983 C8.86395093,18.2642783 8,17.7854355 8,17 Z M15.1132038,12 L10,8.80424764 L10,15.1957524 L15.1132038,12 Z"]')
@@ -29,6 +32,9 @@ export const icon = {
 	forward: 	m('svg[id="forward"][fill="black"][height="24"][width="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
 				m('path[fill-rule="evenodd"][d="M11.2928932,6.70710678 L12.7071068,5.29289322 L19.4142136,12 L12.7071068,18.7071068 L11.2928932,17.2928932 L16.5857864,12 L11.2928932,6.70710678 Z M6.29289322,6.70710678 L7.70710678,5.29289322 L14.4142136,12 L7.70710678,18.7071068 L6.29289322,17.2928932 L11.5857864,12 L6.29289322,6.70710678 Z"]')
 	),
+	turn: 		m('svg[id="forward"][fill="black"][height="24"][width="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
+				m('path[fill-rule="evenodd"][d="M21,5.58578644 L21,19 L7.58578644,19 L11.7393105,14.8464759 C10.8357663,13.4480392 10.0607561,13 8.5,13 C7.61524604,13 6.70742719,13.3157631 5.83659743,13.8516583 C5.52307244,14.0445968 5.23810904,14.2518429 4.98913021,14.4578943 C4.84457198,14.5775287 4.74834888,14.6658647 4.70710678,14.7071068 L3,16.4142136 L3,14 C3,10.1786135 7.1134998,7 11,7 C13.1107089,7 14.4746422,7.45464443 15.8469173,8.55246452 C16.208914,8.84206192 16.5053724,9.10850918 16.9969668,9.58881966 L21,5.58578644 Z M17,12.4142136 L16.2928932,11.7071068 C15.3764834,10.790697 15.0265063,10.4573855 14.5975272,10.1142021 C13.5888499,9.30726033 12.6670689,9 11,9 C9.07763171,9 7.0465992,10.0761184 5.90962044,11.5618734 C6.74035873,11.2038406 7.60743104,11 8.5,11 C11.1170249,11 12.4540735,12.0290643 13.8682431,14.5038611 L14.247192,15.1670216 L12.4142136,17 L19,17 L19,10.4142136 L17,12.4142136 Z"]')
+	),
 	success: 	m('svg[id="success"][fill="black"][height="24"][width="24"][viewBox="0 0 24 24"][xmlns="http://www.w3.org/2000/svg"]', 
 				m('path[fill-rule="evenodd"][d="M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 Z M10,13.5857864 L15.2928932,8.29289322 L16.7071068,9.70710678 L10,16.4142136 L6.29289322,12.7071068 L7.70710678,11.2928932 L10,13.5857864 Z"]')
 	),
@@ -36,6 +42,7 @@ export const icon = {
 				m('path[fill-rule="evenodd"][d="M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 Z M12,13.4142136 L8.70710678,16.7071068 L7.29289322,15.2928932 L10.5857864,12 L7.29289322,8.70710678 L8.70710678,7.29289322 L12,10.5857864 L15.2928932,7.29289322 L16.7071068,8.70710678 L13.4142136,12 L16.7071068,15.2928932 L15.2928932,16.7071068 L12,13.4142136 Z"]')
 	),
 }
+
 
 
 b.css('.button',` 
@@ -49,8 +56,12 @@ b.css('.button',`
     transition: all .25s ease-in-out;
 `)
 b.css('.button:focus',`outline: none; border: none;`) 
+b.css('.button:hover',`cursor:pointer;`) 
+b.css('.button:hover>.buttonIcon',`background-color: #00FF93; cursor:pointer;`) 
+b.css('.button:hover>.buttonIcon>svg',`fill: white;`) 
 b.css('.button:active',`outline: none; border: none;`) 
-b.css('.button:hover',`background: #00FF93; cursor:pointer;`) 
+//b.css('.button:active>.buttonText',`font-weight: bold`)   
+
 
 b.css(".buttonText",`
 	margin: 0;
@@ -59,19 +70,53 @@ b.css(".buttonText",`
 	font-size: 0.875rem;
 `)
 
+
 b.css(".buttonIcon",`
 	padding: 4px;
-	background-color: #00FF93;
-	border-radius: .25rem 0 0 .25rem;
+	background-color: #B6B6B6;
 	display: flex;
 	align-items: center;
+	transition: all .25s ease-in-out;
+    border-radius: .25rem 0 0 .25rem;
+`)
+b.css('.buttonIcon>svg',`transition: all .25s ease-in-out;`) 
+
+
+b.css(".windowButton",`
+	height: 2rem;
+	padding: 0;
+	margin: 0;
+	border: none;
+	border-radius: .25rem;
+	background-color: #F8F8F8;
+	border-radius: .25rem;
+	transition: all .25s ease-in-out;
+`)
+b.css('.windowButton:hover',`background-color: #00FF93; cursor:pointer;`) 
+b.css('.windowButton:hover>.windowIcon',`background-color: #00FF93; cursor:pointer;`) 
+
+
+b.css(".windowIcon",`
+	padding: 4px;
+	margin: 0;
+	background-color: #F8F8F8;
+	align-items: center;
+	transition: all .25s ease-in-out;
 `)
 
 
+const isWindowIcon = (id) =>  ((id==="maximize") || (id==='minimize') || (id==="standalone"))
+
+
 export default { view: (vnode) => 
-    m('button.button', {onclick: vnode.attrs.func.bind()},
-        m('div.buttonIcon', icon[vnode.attrs.id]), 
-            vnode.attrs.text ? m('span.buttonText', vnode.attrs.text) : null
-    )
+	isWindowIcon(vnode.attrs.id) 
+	?	m('button.windowButton', {onclick: vnode.attrs.onclick},
+			m('div.windowIcon', icon[vnode.attrs.id]), 
+				vnode.attrs.text ? m('span.buttonText', vnode.attrs.text) : null
+		) 
+	: 	m('button.button', {onclick: vnode.attrs.onclick},
+			m('div. buttonIcon', icon[vnode.attrs.id]), 
+				vnode.attrs.text ? m('span.buttonText', vnode.attrs.text) : null
+		)
 }
 
