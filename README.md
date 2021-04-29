@@ -1,4 +1,4 @@
-#### Minimale Standalone OMLU Installation für das Modul STUEMTEC
+#### Minimale Standalone OMLU Installation 
 
 
 #### Setup
